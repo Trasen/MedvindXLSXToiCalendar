@@ -1,0 +1,6 @@
+*.spec
+*.ics
+.venv
+build
+dist
+schema
