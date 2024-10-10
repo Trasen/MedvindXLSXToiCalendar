@@ -66,7 +66,7 @@ def main(employee_name, folder_path):
                         handle_scheduled_vacation_and_parental_leave(day_date, entries, timeOff)
                         continue
 
-                    start = [0]
+                    start = startEnd[0]
                     end = startEnd[1]
 
                     entries.append(Entry(day_date, start, end))
